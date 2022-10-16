@@ -19,13 +19,13 @@ public class AiController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         //Acceleration = Mathf.Lerp( speed, 2.5f * Time.deltaTime);
         //Vector3 turnDirection = transform.TransformDirection(Vector3.forward);
         //turnDirection.y -= 100f * Time.deltaTime;
         //transform.position = Vector3.MoveTowards(transform.position, target,speed * Time.deltaTime);
-        transform.LookAt(target.transform.position);
+        LookAtWaypoint();
         agent.SetDestination(target.transform.position);
     }
 
@@ -41,6 +41,12 @@ public class AiController : MonoBehaviour
     {
         target = waypoints[waypointCounter];
         waypointCounter++;
+        Debug.Log(waypointCounter);
+        if (waypointCounter == 23)
+        {
+            waypointCounter = 0;
+            //target = waypoints[waypointCounter];
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -49,6 +55,13 @@ public class AiController : MonoBehaviour
         {
             GetWayPoint();
         }
+    }
+
+    void LookAtWaypoint()
+    {
+        Vector3 direction = (target.transform.position - transform.position).normalized;
+        Quaternion look = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
+        transform.rotation = Quaternion.Slerp(transform.rotation, look, Time.deltaTime * 5f);
     }
 
 
