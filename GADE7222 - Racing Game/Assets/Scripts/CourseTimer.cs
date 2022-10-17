@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class CourseTimer : MonoBehaviour
 {
@@ -11,11 +12,13 @@ public class CourseTimer : MonoBehaviour
     float readyTimer = 4f;
     bool ready = false;
     public GameObject player;
+    public GameObject aiRacer;
     public GameObject losePanel;
 
     private void Start()
     {
         player.GetComponent<ShipController>().enabled = false;
+        aiRacer.GetComponent<AiController>().enabled = false;
         losePanel.SetActive(false);
     }
     void Update()
@@ -76,6 +79,7 @@ public class CourseTimer : MonoBehaviour
             {
                 ready = true;
                 player.GetComponent<ShipController>().enabled = true;
+                player.GetComponent<AiController>().enabled = true;
             }
         }
     }
