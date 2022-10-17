@@ -143,6 +143,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  agent: {fileID: 1512506968}
 --- !u!195 &1512506968
 NavMeshAgent:
   m_ObjectHideFlags: 0
