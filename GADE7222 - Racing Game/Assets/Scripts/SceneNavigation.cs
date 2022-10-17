@@ -30,4 +30,9 @@ public class SceneNavigation : MonoBehaviour
         SceneManager.LoadScene("Race Select");
     }
 
+    public void BeginnerRace()
+    {
+        SceneManager.LoadScene("Beginner Race");
+    }
+
 }
