@@ -85,7 +85,7 @@ public class Dialogue_Manager : MonoBehaviour
         }
         else if (SceneManager.GetActiveScene().name == "Beginner Dialogue")
         {
-            SceneManager.LoadScene("Race Select");
+            SceneManager.LoadScene("Beginner Race");
         }
         else
         {

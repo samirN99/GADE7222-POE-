@@ -2,16 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AiRacerFactory
+public abstract class AiRacerFactory
 {
     //int randomRacer;
-    public AiVehicle GetAiVehicle(int randomRacer)
+    public AiVehicle GetAiVehicle()
     {
         //randomRacer = Random.Range(0, 3);
-        if (randomRacer == 0)
-        {
+        //if (randomRacer == 0)
+        //{
             return new AiRacerOne();
-        }
+        /*}
         else if (randomRacer == 1)
         {
             return new AiRacerTwo();
@@ -19,7 +19,7 @@ public class AiRacerFactory
         else
         {
             return new AiRacerThree();
-        }
+        }*/
     }
 
 }

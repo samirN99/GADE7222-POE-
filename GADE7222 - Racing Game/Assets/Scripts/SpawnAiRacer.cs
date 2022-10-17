@@ -6,12 +6,15 @@ public class SpawnAiRacer : MonoBehaviour
 {
     public GameObject spawnPos;
     public GameObject aiPrefab;
-    AiRacerFactory factory;
+    //AiRacerFactory factory;
     void Start()
     {
-        //factory = FindObjectOfType<AiRacerFactory>();
-
+        //SpawnAi();
+        //factory.GetAiVehicle();
+        //AiVehicle vehicle = factory.GetAiVehicle();
+        var factory = new AiRacerOne();
         SpawnAi();
+        //SpawnAi();
     }
 
     private void SpawnAi()
