@@ -390,6 +390,7 @@ GameObject:
   - component: {fileID: 421852304}
   - component: {fileID: 421852303}
   - component: {fileID: 421852302}
+  - component: {fileID: 421852305}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -455,14 +456,23 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 421852301}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 5, z: -13}
-  m_LocalScale: {x: 3.333333, y: 3.333333, z: 3.333333}
+  m_LocalScale: {x: 3.3333323, y: 3.333333, z: 3.3333323}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 605171752}
+  m_Father: {fileID: 740619899}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!45 &421852305
+Skybox:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421852301}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 2100000, guid: 5123fb50e92e9234894f26c2d32c179e, type: 2}
 --- !u!1 &448398474
 GameObject:
   m_ObjectHideFlags: 0
@@ -612,11 +622,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1263235930235354705, guid: 0da6bca49be364c43a882b740cbe66a5, type: 3}
---- !u!4 &605171752 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7597114648349507959, guid: a4f081825c7f5164c9bb4cc449823049, type: 3}
-  m_PrefabInstance: {fileID: 1906509826}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &659304073 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5043704317091816481, guid: a4f081825c7f5164c9bb4cc449823049, type: 3}
@@ -752,6 +757,11 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 3.6763444, z: 10.433169}
   m_Center: {x: 2.2349265e-15, y: 1.3381718, z: 0.47827956}
+--- !u!4 &740619899 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7597114648349507959, guid: a4f081825c7f5164c9bb4cc449823049, type: 3}
+  m_PrefabInstance: {fileID: 1906509826}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &847514684
 GameObject:
   m_ObjectHideFlags: 0
@@ -782,13 +792,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.405
+  m_Volume: 0.377
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 119
+  Priority: 101
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -826,7 +836,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -893,11 +903,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4290638eb25d7fb49bd2e287ae75eb8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sCrash: {fileID: 0}
-  sAcc: {fileID: 0}
-  sCheckpoint: {fileID: 0}
-  sTimer: {fileID: 0}
-  sFans: {fileID: 0}
+  sCrash: {fileID: 8300000, guid: 6940f5e79ee82494e80836ae65847276, type: 3}
+  sAcc: {fileID: 8300000, guid: f790001bdb15f4a478957c2912751396, type: 3}
+  sCheckpoint: {fileID: 8300000, guid: 0d15448dce31e184c8abf613ca3a1cbc, type: 3}
+  sTimer: {fileID: 8300000, guid: 20f463382ef3f244dbbd4751652f6728, type: 3}
+  sFans: {fileID: 8300000, guid: 4366226047b7bbf4b952bc7178fad5a1, type: 3}
   source: {fileID: 847514685}
 --- !u!1 &931578115
 GameObject:
@@ -1671,7 +1681,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 91689ba4136572d4eb9b6ce5e2301383, type: 2}
+  - {fileID: 2100000, guid: f3c22fcde97d99d4798525a36474f654, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1709,7 +1719,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1161559718}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.7, y: -47.425697, z: -9.6}
+  m_LocalPosition: {x: -26.1, y: -1.5, z: -9.6}
   m_LocalScale: {x: 30, y: 30, z: 30}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1802,8 +1812,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

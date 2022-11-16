@@ -1,0 +1,118 @@
+{
+  "checkpointRace": [
+    {
+      "characterName": "Leelo",
+      "dialogue": "Hi newbie im Leelo, and I will be your race engineer."
+    },
+    {
+      "characterName": "Oleel",
+      "dialogue": "And my name is Oleel, I will ..."
+    },
+    {
+      "characterName": "Leelo",
+      "dialogue": "Ignore my twin he talks alot, welcome to planet Grunkes newbie, you'll be racing for us, team Kled."
+    },
+    {
+      "characterName": "Oleel",
+      "dialogue": "Before I was rudely interupted, I was gonna tell you that I'll be managing and part of your pit crew."
+    },
+    {
+      "characterName": "Leelo",
+      "dialogue": "Today your going to be racing in a checkpoint race, just you and the track seems easy enough right?"
+    },
+    {
+      "characterName": "Oleel",
+      "dialogue": "I wouldnt say that, our previous driver couldn't make it halfway through the race before we knew we needed to find a new driver."
+    },
+    {
+      "characterName": "Leelo",
+      "dialogue": "Dont scare him Oleel! If you stick to the rules you'll be fine."
+    },
+    {
+      "characterName": "Leelo",
+      "dialogue": "The main thing is to finish the race before the timer hits zero."
+    },
+    {
+      "characterName": "Oleel",
+      "dialogue": "Checkpoints are marked on the track each time you enter a checkpoint time will be added to your overall time."
+    },
+    {
+      "characterName": "Leelo",
+      "dialogue": "Make sure you avoid the boundry otherwise it will slow you down."
+    },
+    {
+      "characterName": "Oleel",
+      "dialogue": "Goodluck newbie."
+    }
+  ],
+
+  "beginnerRace": [
+    {
+      "characterName": "Leelo",
+      "dialogue": "Hi newbie im Leelo, and I will be your race engineer."
+    },
+    {
+      "characterName": "Oleel",
+      "dialogue": "And my name is Oleel, I will ..."
+    },
+    {
+      "characterName": "Leelo",
+      "dialogue": "Ignore my twin he talks alot, welcome to planet Grunkes newbie, you'll be racing for us, team Kled."
+    },
+    {
+      "characterName": "Oleel",
+      "dialogue": "Before I was rudely interupted, I was gonna tell you that I'll be managing and part of your pit crew."
+    },
+    {
+      "characterName": "Leelo",
+      "dialogue": "Today you'll be racing in a beginner race against other drivers."
+    },
+    {
+      "characterName": "Oleel",
+      "dialogue": "The track is simple. Just make sure you finish in the top 3, and try to bring back my ship in one piece."
+    },
+    {
+      "characterName": "Leelo",
+      "dialogue": "We would hate to get rid of you after one race"
+    },
+    {
+      "characterName": "Oleel",
+      "dialogue": "We'll see you on the track."
+    }
+  ],
+
+  "advancedRace": [
+    {
+      "characterName": "Leelo",
+      "dialogue": "Hi newbie im Leelo, and I will be your race engineer."
+    },
+    {
+      "characterName": "Oleel",
+      "dialogue": "And my name is Oleel, I will ..."
+    },
+    {
+      "characterName": "Leelo",
+      "dialogue": "Ignore my twin he talks alot, welcome to planet Grunkes newbie, you'll be racing for us, team Kled."
+    },
+    {
+      "characterName": "Oleel",
+      "dialogue": "Before I was rudely interupted, I was gonna tell you that I'll be managing and part of your pit crew."
+    },
+    {
+      "characterName": "Leelo",
+      "dialogue": "Today your going into an advanced race against other drivers."
+    },
+    {
+      "characterName": "Oleel",
+      "dialogue": "This track is going to require a bit more stratergy. The track has multiple routes it's up to you to decide which one to take. Just make sure you make it in the top 3."
+    },
+    {
+      "characterName": "Oleel",
+      "dialogue": "Drive safe, our last driver came back in multiple pieces on this course."
+    },
+    {
+      "characterName": "Leelo",
+      "dialogue": "Just remember we dont have medical aid goodluck newbie."
+    }
+  ]
+}

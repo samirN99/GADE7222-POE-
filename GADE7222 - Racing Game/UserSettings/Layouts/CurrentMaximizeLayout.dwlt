@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 19521
+  controlID: 2897
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 19522
+  controlID: 2898
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 19523
+  controlID: 2873
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -186,8 +186,8 @@ MonoBehaviour:
     y: 0
     width: 283.2
     height: 450.4
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -226,7 +226,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 625effff2260ffff9c67ffff1c68ffffd869ffff9470ffff4a71ffff0073ffff9c73ffff4074ffff147bffff9a7dffff2487ffffe48bffff5a97ffff9c9fffff78a2fffff2b6ffff02c0ffff1afbffffe67a0000528000005a80000048830000508300000a8400001284000032870000ac8c00003e8f00004491000048930000
+      m_ExpandedIDs: a4deffff14e6ffff2ef6ffffb6f9ffff14faffff1afbffff8c5e0000e85f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -503,9 +503,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -39.14006, y: 0.3155131, z: -5.6981316}
+    m_Target: {x: 326.7464, y: 141.13023, z: 455.03625}
     speed: 2
-    m_Value: {x: -39.14006, y: 0.3155131, z: -5.6981316}
+    m_Value: {x: 326.7464, y: 141.13023, z: 455.03625}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -552,13 +552,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.006611626, y: 0.012334863, z: -0.00014132599, w: 1.0000106}
+    m_Target: {x: 0.06656479, y: 0.012305223, z: -0.0008818337, w: 0.9978168}
     speed: 2
-    m_Value: {x: 0.006610909, y: 0.012333524, z: -0.00014131067, w: 0.9999021}
+    m_Value: {x: 0.06655742, y: 0.012303861, z: -0.00088173605, w: 0.9977063}
   m_Size:
-    m_Target: 9.031649
+    m_Target: 685.208
     speed: 2
-    m_Value: 9.031649
+    m_Value: 685.208
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -749,23 +749,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Part 3
+    - Assets/Audio
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Part 3
+  - Assets/Audio
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\naido\OneDrive\Documents\GADE_GIT\GADE7222-POE-\GADE7222
     - Racing Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ba5e0000
-    m_LastClickedID: 24250
-    m_ExpandedIDs: 000000003e5e0000b45e000000ca9a3b
+    scrollPos: {x: 0, y: 12.600006}
+    m_SelectedIDs: 045e0000
+    m_LastClickedID: 24068
+    m_ExpandedIDs: 00000000fa5d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -793,7 +793,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003e5e000000ca9a3b
+    m_ExpandedIDs: 00000000fa5d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -818,9 +818,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 485fffff
-    m_LastClickedInstanceID: -41144
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: ac6d0000
+    m_LastClickedInstanceID: 28076
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300004c690000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -837,7 +837,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 7}
+      m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -938,7 +938,7 @@ MonoBehaviour:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -41144
+  m_LastInspectedObjectInstanceID: 28076
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0

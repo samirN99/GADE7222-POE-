@@ -8,6 +8,12 @@ public class FinishRace : MonoBehaviour
     public TextMeshProUGUI lap;
     int lapNum = 1;
     public GameObject winPanel;
+    SFXManager sfx;
+
+    private void Start()
+    {
+        sfx = FindObjectOfType<SFXManager>();
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -15,6 +21,7 @@ public class FinishRace : MonoBehaviour
         {
             lapNum++;
             lap.text = "Lap " + lapNum + "/3";
+            sfx.PlaySound("checkpoint");
             if (lapNum == 4)
             {
                 winPanel.SetActive(true);

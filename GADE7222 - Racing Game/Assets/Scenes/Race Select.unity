@@ -315,7 +315,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Welcome to Space Racer\nHold W to accelerate\nHold A to turn left \nHold
+  m_text: "Welcome to Space Cruise\nHold W to accelerate\nHold A to turn left \nHold
     D to turn right\n\nPlease select your race type"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -444,7 +444,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.04805973, g: 0.9173377, b: 0.9433962, a: 1}
+  m_Color: {r: 0.04705882, g: 0.28018138, b: 0.94509804, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
