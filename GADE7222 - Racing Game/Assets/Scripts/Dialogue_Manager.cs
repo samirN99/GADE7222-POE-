@@ -89,7 +89,7 @@ public class Dialogue_Manager : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene("Race Select");
+            SceneManager.LoadScene("Advanced Race");
         }
     }
 }

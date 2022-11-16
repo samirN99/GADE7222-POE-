@@ -35,4 +35,9 @@ public class SceneNavigation : MonoBehaviour
         SceneManager.LoadScene("Beginner Race");
     }
 
+    public void AdvancedRace()
+    {
+        SceneManager.LoadScene("Advanced Race");
+    }
+
 }

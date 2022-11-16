@@ -8,11 +8,13 @@ public class ShipController : MonoBehaviour
     private float Acceleration;
     private float Turn;
     [SerializeField] private float speed;
+    SFXManager sfx;
 
     float turningStrength = 180f;
 
     void Start()
     {
+        sfx = FindObjectOfType<SFXManager>();
         rb = GetComponent<Rigidbody>();
     }
 
@@ -33,6 +35,14 @@ public class ShipController : MonoBehaviour
         {
             rb.AddForce(transform.forward * speed );
         }*/
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
+        {
+            sfx.PlaySound("crash");
+        }
     }
 
 

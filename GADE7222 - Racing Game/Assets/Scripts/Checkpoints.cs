@@ -11,9 +11,11 @@ public class Checkpoints : MonoBehaviour
     int laps = 1;
     public TextMeshProUGUI lapCounter;
     public GameObject winPanel;
+    SFXManager sfx;
 
     private void Start()
     {
+        sfx = FindObjectOfType<SFXManager>();
         time = FindObjectOfType<CourseTimer>();
         c = FindObjectOfType<CheckpointTracker>();
     }
@@ -24,6 +26,7 @@ public class Checkpoints : MonoBehaviour
             if (SceneManager.GetActiveScene().name == "Checkpoint Race")
             {
                 time.trackTime = time.trackTime + 7f;
+                sfx.PlaySound("checkpoint");
                 c.NextCheckpoint();
             }
             else

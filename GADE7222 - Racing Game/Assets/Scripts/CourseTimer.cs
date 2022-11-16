@@ -14,9 +14,11 @@ public class CourseTimer : MonoBehaviour
     public GameObject player;
     public GameObject aiRacer;
     public GameObject losePanel;
+    SFXManager sfx;
 
     private void Start()
     {
+        sfx = FindObjectOfType<SFXManager>();
         player.GetComponent<ShipController>().enabled = false;
         aiRacer.GetComponent<AiController>().enabled = false;
         losePanel.SetActive(false);
@@ -62,18 +64,22 @@ public class CourseTimer : MonoBehaviour
     {
         if (ready == false)
         {
+            sfx.PlaySound("rev");
             time = Mathf.FloorToInt(time);
             if (time == 3)
             {
                 displayTime.text = "On your marks";
+                sfx.PlaySound("timer");
             }
             else if (time == 2)
             {
                 displayTime.text = "Get set";
+                sfx.PlaySound("timer");
             }
             else if (time == 1)
             {
                 displayTime.text = "Go";
+                sfx.PlaySound("timer");
             }
             else 
             {
